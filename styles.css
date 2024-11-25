@@ -1,0 +1,20 @@
+.slideshow{
+    border:  2PX solid RED;
+    width: 800PX;
+    height: 400px;
+    position: relative;
+}
+
+.slide{
+    width: 800PX;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    overflow: hidden;
+}
+
+.slide:first-child{
+    display: block;
+}
